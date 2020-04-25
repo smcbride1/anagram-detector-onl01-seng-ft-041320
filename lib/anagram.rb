@@ -3,9 +3,8 @@ class Anagram
 
   attr_accessor :word, :possible_anagrams
 
-  def initialize(word, possible_anagrams)
+  def initialize(word)
     @word = word
-    @possible_anagrams = possible_anagrams
   end
 
   def match
