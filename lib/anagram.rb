@@ -8,4 +8,5 @@ class Anagram
     @possible_anagrams = possible_anagrams
   end
 
-  def detect_anagrams
+  def match
+    word
